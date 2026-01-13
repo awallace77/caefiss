@@ -1,0 +1,49 @@
+{
+  "en": {
+    "general": {
+      "title": "CAEFISS 2.0 Benchmarker",
+      "desc": "This is a tool built for CAEFISS2.0 to upload an audit log JSON file. You can generate visual metrics based on your chosen type.",
+      "fileInputLabel": "Choose file",
+      "addFileLabel": "Upload",
+      "fileInputPlaceholder": "Choose file ...",
+      "fileUpload": "Uploading file",
+      "fileUploadError": "Error uploading file"
+    },
+
+    "generatorTypes": {
+      "storyPoints": "Story Point Benchmarks",
+      "storyPointsDesc": "Generate a graph that shows your ticket performance based on story points and their expected benchmark",
+      "storyPointsImgAlt": "Graph based on story points",
+      "storyPointsImgName": "story_points_benchmarks"
+    },
+
+    "success": {
+      "upload": "Successfully uploaded file",
+      "generated": "Successfully generated image",
+      "download": "Successfully downloaded image"
+    },
+
+    "warning": {
+      "fileType": "Incorrect file type, please use a JSON file"
+    },
+
+    "errors": {
+      "upload": "There was an error uploading the file",
+      "generated": "There was an error generating the image",
+      "download": "There was an error downloading the image",
+      "noFile": "No file provided"
+    },
+
+    "info": {
+      "upload": "Uploading file",
+      "generated": "Generating image",
+      "download": "Downloading image"
+    },
+
+    "actions": {
+      "generateImage": "Generate Image",
+      "downloadImage": "Download Image"
+    }
+  },
+  "fr": {}
+}
